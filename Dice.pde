@@ -4,7 +4,6 @@ int dieTotal = 0;
 
 void setup()
 {
-  background(200,200,200);
   size(500, 550);
   textAlign(CENTER);
   noLoop();
