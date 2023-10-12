@@ -36,7 +36,7 @@ void draw()
       }
     }
   }
-     System.out.println(dieTotal);
+     //System.out.println(dieTotal);
      noStroke();
      fill(200,200,200);
      rect(0,500,500,50);
@@ -63,7 +63,7 @@ class Die //models one single dice cube
   void roll()
   {
     dieNum = (int)((Math.random()*6)+1);
-    System.out.println(dieNum);
+   // System.out.println(dieNum);
   }
   void show()
   {
